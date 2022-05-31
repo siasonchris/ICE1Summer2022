@@ -61,7 +61,10 @@ public class Card
     int randomInt = index.nextInt(VALUE.length);
     return VALUE[randomInt];
     }
-   
+   //Christian Siason
+        
+   //991605619 
+    
     
     
     

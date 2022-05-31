@@ -7,7 +7,7 @@ import java.util.*;
  * step 2: take any card input from user suit,number
  * step 3: user card is in  the array 'card is found'
  *
- * @author siasonc ,May 23rd
+ * @author siasonchris ,May 23rd
  */
 public class CardTrickICE1 {
 
@@ -15,7 +15,13 @@ public class CardTrickICE1 {
     public static void main(String[] args) 
     {
         Scanner kb = new Scanner(System.in);
+       
+        Card luckyCard = new Card(); //card object called luckyCard
+        luckyCard.setValue(12);
+        luckyCard.setSuits("spades");
+       
         Card[] magicHand = new Card[7]; //Array of object
+       
         for( int i=0;i<magicHand.length;i++)
         {
             Card c1 = new Card();

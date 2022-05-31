@@ -9,6 +9,7 @@ import java.util.Random;
  */
 public class Card 
 {
+    
     private int value;
     private String suits; //encapsulation
     //constant
@@ -42,6 +43,9 @@ public class Card
     public void setSuits(String suits) {
         this.suits = suits;
     }
+   
+   
+    
    
     
     //method for suits
